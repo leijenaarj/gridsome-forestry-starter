@@ -9,7 +9,12 @@
   "dependencies": {
     "@gridsome/remark-prismjs": "0.4.0",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.1",
     "gridsome": "^0.7.20"
+  },
+  "devDependencies": {
+    "@gridsome/transformer-remark": "^0.6.3",
+    "gridsome-plugin-typescript": "^0.4.0",
+    "ts-loader": "^8.0.5",
+    "typescript": "^4.0.3"
   }
 }
